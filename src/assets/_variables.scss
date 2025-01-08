@@ -1,0 +1,17 @@
+$app-primary-color: #4c6e5a;
+$app-secondary-color: #363658;
+$white: #ffffff;
+$black: #000000;
+
+$primary-palette: (
+  main: $app-primary-color,
+  contrast: (main: $white,
+  ),
+);
+
+$accent-palette: (
+  main: $app-secondary-color,
+  contrast: (main: $black,
+  ),
+);
+

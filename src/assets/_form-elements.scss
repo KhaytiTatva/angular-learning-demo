@@ -1,0 +1,9 @@
+mat-form-field{
+    width: 100%;
+}
+.custom-textarea textarea {
+    height: 56px !important; /* Set a specific height */
+    resize: none; /* Prevent manual resizing */
+    overflow: auto; /* Add a scrollbar if content exceeds height */
+  }
+
